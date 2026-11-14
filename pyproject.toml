@@ -7,7 +7,12 @@ authors = [
     { name = "Kaiser Lycan", email = "josephreyramirezpanti+github@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+    "statsmodels>=0.15.0",
+]
 
 [project.scripts]
 uci-bike-rental-forecasting-with-sarima = "uci_bike_rental_forecasting_with_sarima:main"
